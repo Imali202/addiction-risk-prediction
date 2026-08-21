@@ -18,7 +18,11 @@ Thumbs.db
 
 # Generated app artifacts
 reports/
-*.pkl
+
+# Keep model artifacts required for deployment
+!models/
+!models/*.pkl
+!models/*.json
 
 # Editor files
 .vscode/
