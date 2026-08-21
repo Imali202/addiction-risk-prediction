@@ -1,0 +1,22 @@
+.main {
+    padding-top: 1.5rem;
+}
+
+.risk-badge {
+    display: inline-block;
+    padding: 0.4em 1em;
+    border-radius: 999px;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.risk-low { background-color: #D4F4DD; color: #1B7A3C; }
+.risk-moderate { background-color: #FFF3CD; color: #8A6D00; }
+.risk-high { background-color: #FFD6D6; color: #B30000; }
+
+.card {
+    background-color: #F9F9FB;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}

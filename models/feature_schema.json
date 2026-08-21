@@ -1,0 +1,42 @@
+{
+  "numeric_features": [
+    "Age",
+    "Daily_Usage_Hours",
+    "Sleep_Hours",
+    "Exercise_Hours",
+    "Screen_Time_Before_Bed",
+    "Phone_Checks_Per_Day",
+    "Apps_Used_Daily",
+    "Time_on_Social_Media",
+    "Time_on_Gaming",
+    "Time_on_Education",
+    "Weekend_Usage_Hours",
+    "Anxiety_Level",
+    "Depression_Level",
+    "Self_Esteem",
+    "Social_Interactions",
+    "Family_Communication",
+    "Academic_Performance",
+    "sleep_deficit",
+    "checks_per_hour",
+    "social_to_total_ratio",
+    "edu_to_total_ratio",
+    "mental_health_composite",
+    "family_support_composite",
+    "bedtime_risk",
+    "weekend_escalation"
+  ],
+  "categorical_features": [
+    "Gender",
+    "School_Grade",
+    "Phone_Usage_Purpose"
+  ],
+  "binary_features": [
+    "Parental_Control"
+  ],
+  "risk_tier_bins": {
+    "Low": "0-4",
+    "Moderate": "5-7",
+    "High": "8-10"
+  }
+}
